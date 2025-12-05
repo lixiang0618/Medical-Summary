@@ -87,12 +87,12 @@ def call_chatanywhere_api(user_prompt_json_str):
 # ==========================
 # 示例：如何使用
 # ==========================
-if __name__ == "__main__":
-    # 假设 your_json_str 就是你贴出来的那个超长 JSON
-    your_json_str = """{ ...  ... }"""
-
-    result = call_chatanywhere_api(your_json_str)
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+# if __name__ == "__main__":
+#     # 假设 your_json_str 就是你贴出来的那个超长 JSON
+#     your_json_str = """{ ...  ... }"""
+#
+#     result = call_chatanywhere_api(your_json_str)
+#     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 
